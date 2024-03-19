@@ -1,0 +1,135 @@
+@media screen and (max-width:800px) {
+    .home-div{
+        background-image:url('../Assests/bgimage.png');
+        background-size: cover;
+        height: 140vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40rem 3rem;
+    }
+    
+    .food-item-fx {
+        backdrop-filter: blur(15px);
+        border: solid 0.05rem skyblue;
+        border-radius: 1.5rem;
+        margin: 1rem;
+        padding: 4rem;
+        width: 75%;
+    }
+
+    .food-div {
+        border: solid 0 white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .food-des {     
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: 'Roboto',sans-serif;
+        align-items: center;
+        >h1 {
+            font-family: 'Roboto',sans-serif;
+            font-size: 2rem;
+            margin-bottom: 0.7rem;
+        }
+        >p {
+            font-family: 'Roboto',sans-serif;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .home-div{
+        background-image:url('../Assests/bgimage.png');
+        background-size: cover;
+        height: 400vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0.2rem 1rem 0.2rem;
+    }
+    
+    .food-item-fx {
+        backdrop-filter: blur(15px);
+        border: solid 0.05rem skyblue;
+        border-radius: 1.5rem;
+        margin: 1rem 0rem 0.5rem 0rem;
+        padding: 2rem;
+        width: 50%;
+    }
+
+    .food-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0rem 0rem 0rem 1.5rem;
+    }
+
+    .foodimg {
+        display: flex;
+        width: 50%;
+        height:50%;
+    }
+
+    .foodimg1 {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .submain-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headicon {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+
+    .input-search {
+        &::placeholder {
+            color: white;
+        }
+        background-color:rgb(75, 75, 75);
+        border: solid 0.1rem red;
+        border-radius: 0.1rem;
+        padding: 0 0.5rem;
+        margin: 1rem 0.1rem;
+        width: 13rem;
+    }
+
+    .food-div {
+        border: solid 0 white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .food-des {     
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: 'Roboto',sans-serif;
+        align-items: center;
+        >h1 {
+            font-family: 'Roboto',sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.7rem;
+        }
+        >p {
+            font-family: 'Roboto',sans-serif;
+            font-size: 1rem;
+        }
+    }
+}
